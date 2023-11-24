@@ -131,3 +131,33 @@ section {
   background-color: rgb(2, 92, 2);
   border: 1px dashed black;
 }
+
+/* FOOTER */
+
+.foot-back {
+  display: flex;
+  height: 750px;
+  align-items: flex-start;
+  padding-top: 10px;
+  background-color: rgb(31, 30, 30);
+}
+
+.foot-left {
+  width: 40%;
+  height: 700px;
+  align-content: center;
+
+  /* DEBUG */
+  background-color: rgb(241, 156, 171);
+  border: 1px dashed black;
+}
+
+.foot-right {
+  width: 15%;
+  height: 700px;
+  align-content: center;
+
+  /* DEBUG */
+  background-color: rgb(0, 128, 119);
+  border: 1px dashed black;
+}
