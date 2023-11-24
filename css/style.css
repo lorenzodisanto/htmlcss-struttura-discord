@@ -76,6 +76,7 @@ nav {
 }
 
 /* MAIN */
+
 section {
   display: flex;
   align-items: center;
@@ -114,4 +115,19 @@ section {
 
 .reverse {
   flex-direction: row-reverse;
+}
+
+.big-section {
+  display: flex;
+  height: 1100px;
+}
+
+.section-center {
+  width: 100%;
+  height: 1000px;
+  align-items: center;
+
+  /* DEBUG */
+  background-color: rgb(2, 92, 2);
+  border: 1px dashed black;
 }
