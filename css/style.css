@@ -76,16 +76,15 @@ nav {
 }
 
 /* MAIN */
-main {
+section {
   display: flex;
   align-items: center;
 
   /* DEBUG */
-  background-color: white;
   min-height: 600px;
 }
 
-.main-left {
+.section-left {
   width: 60%;
   height: 500px;
   align-content: center;
@@ -95,7 +94,7 @@ main {
   border: 1px dashed black;
 }
 
-.main-right {
+.section-right {
   width: 40%;
   height: 500px;
   align-content: center;
@@ -103,4 +102,16 @@ main {
   /* DEBUG */
   background-color: pink;
   border: 1px dashed black;
+}
+
+.odd {
+  background-color: white;
+}
+
+.even {
+  background-color: grey;
+}
+
+.reverse {
+  flex-direction: row-reverse;
 }
