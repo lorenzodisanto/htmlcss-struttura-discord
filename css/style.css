@@ -52,3 +52,23 @@ header {
   background-color: rgb(238, 238, 133);
   border: 1px dashed black;
 }
+
+nav {
+  display: flex;
+  align-items: center;
+
+  /* DEBUG */
+  background-color: rgb(4, 4, 112);
+  min-height: 600px;
+}
+
+.nav-container {
+  width: 55%;
+  display: flex;
+  margin: 0 auto;
+  height: 500px;
+
+  /* DEBUG */
+  background-color: violet;
+  border: 1px dashed black;
+}
