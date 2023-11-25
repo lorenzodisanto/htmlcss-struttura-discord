@@ -218,9 +218,56 @@ h2 {
   height: 1000px;
   align-items: center;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: rgb(2, 92, 2);
-  border: 1px dashed black;
+  border: 1px dashed black;*/
+}
+
+.big-descriptiontitle {
+  width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.big-description {
+  width: 860px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 25px;
+}
+
+.big-items {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+.star-container {
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.download-footbox {
+  margin-top: 60px;
+}
+.download-foot {
+  margin-top: 40px;
+  padding: 15px 20px;
+  font-size: 1.3rem;
+  background-color: rgb(142 161 225);
+  border-radius: 35px;
+  color: white;
+}
+
+.download-foot::before {
+  content: "\1F817";
+  padding: 0px 10px;
+  padding-left: 0;
 }
 
 /* FOOTER */
