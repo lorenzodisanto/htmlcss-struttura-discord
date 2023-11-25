@@ -155,9 +155,9 @@ section {
   height: 500px;
   align-content: center;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: rgb(132, 171, 171);
-  border: 1px dashed black;
+  border: 1px dashed black;*/
 }
 
 .section-right {
@@ -165,17 +165,43 @@ section {
   height: 500px;
   align-content: center;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: pink;
-  border: 1px dashed black;
+  border: 1px dashed black;*/
+}
+
+.right-description {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-top: 40px;
+}
+
+.small-description {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  line-height: 25px;
 }
 
 .odd {
   background-color: white;
 }
 
+.wave {
+  width: 100%;
+  display: flex;
+}
+
+.wave-reverse {
+  width: 100%;
+  transform: scaleY(-1);
+}
+
 .even {
-  background-color: grey;
+  background-color: rgb(246 246 246);
 }
 
 .reverse {
