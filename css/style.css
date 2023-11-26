@@ -255,6 +255,7 @@ h3 {
 .download-footbox {
   margin-top: 60px;
 }
+
 .download-foot {
   margin-top: 40px;
   padding: 15px 20px;
@@ -272,42 +273,94 @@ h3 {
 
 /* FOOTER */
 
+.foot-titlecontainer {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.foot-title {
+  font-size: 2.6rem;
+  color: rgb(116 139 223);
+  text-align: left;
+}
+
+.flag-language {
+  height: 10px;
+  margin-top: 25px;
+  line-height: 10px;
+}
+.language {
+  background-color: rgb(35 39 42);
+  color: white;
+  font-size: 0.9rem;
+  vertical-align: middle;
+}
+
+.flag {
+  width: 30px;
+  vertical-align: middle;
+}
+
+.social {
+  margin-top: 30px;
+}
+
+.icon-social {
+  width: 25px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  padding: 8px;
+}
+
+.list-title {
+  margin-left: 15px;
+  font-size: 1.3rem;
+  color: rgb(116 139 223);
+}
+
 .foot-back {
   display: flex;
-  height: 750px;
+  height: 550px;
   align-items: flex-start;
   padding-top: 10px;
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(35 39 42);
 }
 
 .foot-left {
   width: 40%;
-  height: 700px;
+  height: 450px;
   align-content: center;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: rgb(241, 156, 171);
-  border: 1px dashed black;
+  border: 1px dashed black;*/
 }
 
 .foot-right {
   width: 15%;
-  height: 700px;
+  height: 450px;
   align-content: center;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: rgb(0, 128, 119);
-  border: 1px dashed black;
+  border: 1px dashed black;*/
 }
 
 .foot-bot {
   display: flex;
   align-items: flex-end;
   height: 150px;
-
-  /* DEBUG */
-  border-top: 1px solid white;
-  background-color: rgb(31, 30, 30);
+  background-color: rgb(35 39 42);
+  /* DEBUG 
+  border-top: 1px solid white;*/
 }
 
 .foot-box {
@@ -317,10 +370,11 @@ h3 {
   width: 70%;
   margin: 0 auto;
   height: 120px;
+  border-top: 1px solid rgb(142 161 225);
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: aquamarine;
-  border: 1px dashed black;
+  border: 1px dashed black;*/
 }
 
 .foot-logo {
@@ -328,10 +382,11 @@ h3 {
   align-items: center;
   height: 25px;
   padding: 15px;
+  padding-left: 0;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: pink;
-  border: 1px dashed black;
+  border: 1px dashed black;*/
 }
 
 .foot-button {
@@ -339,8 +394,18 @@ h3 {
   align-items: center;
   height: 25px;
   padding: 15px;
+  padding-right: 0;
 
-  /* DEBUG */
+  /* DEBUG 
   background-color: pink;
-  border: 1px dashed black;
+  border: 1px dashed black;*/
+}
+
+.registrati {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: rgb(142 161 225);
+  border-radius: 35px;
+  color: white;
+  margin-right: 0;
 }
